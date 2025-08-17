@@ -1,0 +1,63 @@
+# Add api_key if you want to use this in your own repository
+#api_key.r
+
+# R-specific files
+.Rhistory
+.Rprofile
+*.Rproj
+
+# Log files
+*.log
+
+# Output files
+.out
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# OAuth2 token
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# Translation temp files
+po/*~
+
+# Shiny app-specific files
+rsconnect/
+shiny_bookmarks/
+shiny_logs/
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Exclude system-specific files
+*.swp
+*~
